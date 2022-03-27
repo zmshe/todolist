@@ -3,15 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "dev": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
-  "dependencies": { // 生产工具包
+  "dependencies": {
     "core-js": "^3.8.3",
+    "element-ui": "^2.15.6",
+    "less-loader": "^10.2.0",
     "vue": "^2.6.14"
   },
-  "devDependencies": { // 开发工具包
+  "devDependencies": {
     "@babel/core": "^7.12.16",
     "@babel/eslint-parser": "^7.12.16",
     "@vue/cli-plugin-babel": "~5.0.0",
