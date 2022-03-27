@@ -7,11 +7,11 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
-  "dependencies": {
+  "dependencies": { // 生产工具包
     "core-js": "^3.8.3",
     "vue": "^2.6.14"
   },
-  "devDependencies": {
+  "devDependencies": { // 开发工具包
     "@babel/core": "^7.12.16",
     "@babel/eslint-parser": "^7.12.16",
     "@vue/cli-plugin-babel": "~5.0.0",
